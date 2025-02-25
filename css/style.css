@@ -15,6 +15,9 @@ a {
     color: inherit;
 }
 
+body {
+    min-width: 1920px;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
@@ -182,9 +185,7 @@ a {
     font-family: "Noto Sans KR", serif;
     color: #666666;
 }
-.wrap .new_item .item_wrap2 {
-    
-}
+
 .wrap .new_item .item_wrap2 .main_item{
     display: flex;
     justify-content: space-between;
@@ -204,7 +205,7 @@ a {
 }
 .wrap .new_item .item_wrap2 .main_item a p  {
     position: absolute;
-    top: 400px;
+    top: 230px;
     left: 80px;
     font-size: 50px;
     font-weight: bolder;
@@ -213,7 +214,7 @@ a {
 }
 .wrap .new_item .item_wrap2 .main_item a span  {
     position: absolute;
-    top: 480px;
+    top: 300px;
     left: 100px;
     font-size: 16px;
     font-weight: bolder;
@@ -222,7 +223,7 @@ a {
 }
 .wrap .new_item .item_wrap2 .main_item .image_box img {
     width: 1200px;
-    height: 580px;
+    height: 600px;
     object-fit: cover;
     padding-left: 30px;
     
