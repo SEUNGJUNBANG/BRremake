@@ -297,7 +297,10 @@ button {
     height: 800px;
     margin-bottom: 150px;
 }
-
+.wrap .br_play .item_wrap {
+    display: flex;
+    justify-content: center;
+}
 .wrap .br_play .item_wrap .title {
     display: flex;
     justify-content: center;
@@ -342,7 +345,10 @@ button {
     height: 900px;
 
 }
-
+.wrap .be_better .item_wrap {
+    display: flex;
+    justify-content: center;
+}
 .wrap .be_better .item_wrap .title {
     padding-bottom: 60px;
     padding-top: 150px;
