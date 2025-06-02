@@ -302,6 +302,8 @@ button {
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .wrap .br_play .item_wrap .title h2 {
@@ -330,6 +332,9 @@ button {
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .wrap .be_better {
