@@ -352,13 +352,19 @@ button {
 .wrap .be_better .item_wrap .title {
     padding-bottom: 60px;
     padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .wrap .be_better .item_wrap .title .text_box {
     text-align: center;
     width: 100%;
     justify-content: center;
-
+}
+.wrap .be_better .item_wrap .title .text_box .text {
+    text-align: center;
 }
 
 .wrap .be_better .item_wrap .title h2 {
@@ -409,7 +415,9 @@ button {
 .wrap .br_benefit {
     padding-top: 150px;
 }
-
+.wrap .br_benefit .title {
+   text-align: center;
+}
 .wrap .br_benefit .item_wrap .text_box {
     display: flex;
     justify-content: center;
@@ -562,7 +570,19 @@ button {
     list-style: none;
     white-space: nowrap;
 }
-
+.footer .button {
+    text-align: end;
+    padding-right: 100px;
+}
+.footer .button button {
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 30px;
+}
+.footer .p {    
+    text-align: end;
+    padding-right: 100px;
+   }
 .footer .text3 {
     text-align: center;
     margin-top: 30px;
